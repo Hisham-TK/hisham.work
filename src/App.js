@@ -10,7 +10,6 @@ import Contact from "./Components/Contact";
 // import Testimonials from "./Components/Testimonials";
 // import Portfolio from "./Components/Portfolio";
 import data from "./resumeData";
-console.log({ data });
 
 class App extends Component {
   constructor(props) {
