@@ -11,7 +11,7 @@
     "react-scripts": "^4.0.1"
   },
   "scripts": {
-    "predploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d docs",
     "prebuild": "rm -rf build docs",
     "build": "react-scripts build",
