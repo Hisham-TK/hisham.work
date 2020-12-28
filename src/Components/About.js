@@ -30,16 +30,14 @@ class About extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-
             <p>{bio}</p>
-
             <a href={gisWebsite} target="_blank" className="m-2">
               GIS Projects Samples
             </a>
+            &nbsp;&nbsp; - &nbsp;&nbsp;
             <a href={website} target="_blank" className="m-2">
-              Website URL
+              Development Website URL
             </a>
-
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>

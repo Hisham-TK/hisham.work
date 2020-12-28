@@ -4,16 +4,22 @@ class Resume extends Component {
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function (education) {
+      var education = this.props.data.education.map(function (
+        education,
+        index
+      ) {
         return (
-          <div key={education.school}>
-            <h3>{education.school}</h3>
-            <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
-            </p>
-            <pre>{education.description}</pre>
-          </div>
+          <React.Fragment>
+            {index ? <hr /> : false}
+            <div key={education.school} className="">
+              <h3>{education.school}</h3>
+              <p className="info">
+                {education.degree} <span>&bull;</span>
+                <em className="date">{education.graduated}</em>
+              </p>
+              <pre>{education.description}</pre>
+            </div>
+          </React.Fragment>
         );
       });
       var work = this.props.data.work.map(function (work) {

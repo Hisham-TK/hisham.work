@@ -81,7 +81,7 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 
     education: [
       {
-        school: "Information Technology Institute",
+        school: "Information Technology Institute (ITI) Mansora",
         degree: "IT Diploma at MEAN Stack Development",
         graduated: "Mar 2019",
         description: `Track courses :
@@ -95,8 +95,8 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 8. Freelancing, Communication, Presentation, CV writing skills`,
       },
       {
-        school: "Trainee as GIS Specialist",
-        degree: "Next Technology Leaders (NTL)",
+        school: "Next Technology Leaders (NTL), UC-Davis , and ICT",
+        degree: "Trainee as GIS Specialist",
         graduated: "Jul 2018",
         description: `Specialization Courses :
 1. Fundamentals of GIS
@@ -106,7 +106,7 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 5. Geospatial Analysis Project`,
       },
       {
-        school: "Information Technology Institute",
+        school: "Information Technology Institute (ITI) Alexandria",
         degree: "IT Diploma at MEAN Stack Development",
         graduated: "Apr 2018",
         description: `Track courses :
@@ -121,7 +121,7 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 9. Communication, presentation & interviewing skills`,
       },
       {
-        school: "Alexandria University",
+        school: "Favulty of Arts, Alexandria University",
         degree: "BA in Geographic Information System, & Geography",
         graduated: "May 2007",
         description: `List of subjects:
@@ -173,8 +173,7 @@ Remote Sensing Courses – Grade: A
     ],
 
     //   TODO
-    skillmessage:
-      "Here you can create a short write-up of your skills to show off to employers",
+    skillmessage: "Most recent skills",
     skills: [
       {
         name: "HTML/5",
@@ -319,54 +318,54 @@ Remote Sensing Courses – Grade: A
     ],
   },
   //   TODO
-  portfolio: {
-    projects: [
-      {
-        title: "Canadian Wanderlust",
-        category: "My Travel Blog for my post-university travels",
-        image: "canadian-wanderlust.jpg",
-        url: "https://www.canadianwanderlust.com",
-      },
-      {
-        title: "Fury Fighting Gear",
-        category: "(offline now) A fighting gear company I started",
-        image: "fury-fighting-gear.jpg",
-        url: "http://www.timbakerdev.com",
-      },
-      {
-        title: "Original Thai Food",
-        category: "Website I built for a restaurant I like in Thailand",
-        image: "original-thai-food.jpg",
-        url: "http://www.timbakerdev.com/originalthaifood.github.io",
-      },
-      {
-        title: "Resume Website",
-        category: "A React based resume website template",
-        image: "resume-website.jpg",
-        url: "http://www.timbakerdev.com",
-      },
-      {
-        title: "Smirkspace",
-        category:
-          "(MVP Only) A React and Meteor based chat University project.",
-        image: "smirkspace.jpg",
-        url: "http://www.smirkspace.com",
-      },
-    ],
-  },
+  //   portfolio: {
+  //     projects: [
+  //       {
+  //         title: "Canadian Wanderlust",
+  //         category: "My Travel Blog for my post-university travels",
+  //         image: "canadian-wanderlust.jpg",
+  //         url: "https://www.canadianwanderlust.com",
+  //       },
+  //       {
+  //         title: "Fury Fighting Gear",
+  //         category: "(offline now) A fighting gear company I started",
+  //         image: "fury-fighting-gear.jpg",
+  //         url: "http://www.timbakerdev.com",
+  //       },
+  //       {
+  //         title: "Original Thai Food",
+  //         category: "Website I built for a restaurant I like in Thailand",
+  //         image: "original-thai-food.jpg",
+  //         url: "http://www.timbakerdev.com/originalthaifood.github.io",
+  //       },
+  //       {
+  //         title: "Resume Website",
+  //         category: "A React based resume website template",
+  //         image: "resume-website.jpg",
+  //         url: "http://www.timbakerdev.com",
+  //       },
+  //       {
+  //         title: "Smirkspace",
+  //         category:
+  //           "(MVP Only) A React and Meteor based chat University project.",
+  //         image: "smirkspace.jpg",
+  //         url: "http://www.smirkspace.com",
+  //       },
+  //     ],
+  //   },
   //   TODO
-  testimonials: {
-    testimonials: [
-      {
-        text:
-          "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        user: "Kareem Abdul Jabbar",
-      },
-      {
-        text:
-          "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        user: "Steve Wozniak... impersonator",
-      },
-    ],
-  },
+  //   testimonials: {
+  //     testimonials: [
+  //       {
+  //         text:
+  //           "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+  //         user: "Kareem Abdul Jabbar",
+  //       },
+  //       {
+  //         text:
+  //           "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+  //         user: "Steve Wozniak... impersonator",
+  //       },
+  //     ],
+  //   },
 };
