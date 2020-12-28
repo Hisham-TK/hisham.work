@@ -924,6 +924,7 @@
                       Object(t.jsx)(p, { data: this.state.resumeData.main }),
                       Object(t.jsx)(b, { data: this.state.resumeData.main }),
                       Object(t.jsx)(j, { data: this.state.resumeData.resume }),
+                      Object(t.jsx)(Testimonials, { data: this.state.resumeData.testimonials }),
                       Object(t.jsx)(g, { data: this.state.resumeData.main }),
                       Object(t.jsx)(u, { data: this.state.resumeData.main }),
                     ],
@@ -987,4 +988,4 @@
   },
   [[19, 1, 2]],
 ]);
-//# sourceMappingURL=main.bc3b09e3.chunk.js.map
+//# sourceMappingURL=main.d081edb5.chunk.js.map
