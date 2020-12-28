@@ -47,7 +47,7 @@ class Resume extends Component {
               style={{
                 marginLeft: '3%',
                 display: 'inline-block',
-                width: '43%',
+                width: '47%',
               }}
               title={skill.desc}
             >
@@ -91,7 +91,7 @@ class Resume extends Component {
             </h1>
           </div>
 
-          <div className="tweleve columns main-col">
+          <div className="eleven columns main-col">
             {/* <h5 style={{ textAlign: "center" }}>{skillmessage}</h5> */}
             <div className="bars container">
               <ul className="skills row">{skills}</ul>

@@ -75,7 +75,7 @@ class Contact extends Component {
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
-                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  <textarea cols="50" rows="7" id="contactMessage" name="contactMessage"></textarea>
                 </div>
 
                 <div>

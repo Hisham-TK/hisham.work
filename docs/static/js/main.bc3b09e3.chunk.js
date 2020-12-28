@@ -159,6 +159,7 @@
                         {
                           children: Object(t.jsx)('a', {
                             href: e.url,
+                            target: '_blank',
                             children: Object(t.jsx)('i', { className: e.className }),
                           }),
                         },
@@ -173,22 +174,11 @@
                           className: 'twelve columns',
                           children: [
                             Object(t.jsx)('ul', { className: 'social-links', children: e }),
-                            Object(t.jsxs)('ul', {
+                            Object(t.jsx)('ul', {
                               className: 'copyright',
-                              children: [
-                                Object(t.jsx)('li', { children: '\xa9 Copyright 2017 Tim Baker' }),
-                                Object(t.jsxs)('li', {
-                                  children: [
-                                    'Design by',
-                                    ' ',
-                                    Object(t.jsx)('a', {
-                                      title: 'Styleshout',
-                                      href: 'http://www.styleshout.com/',
-                                      children: 'Styleshout',
-                                    }),
-                                  ],
-                                }),
-                              ],
+                              children: Object(t.jsxs)('li', {
+                                children: ['\xa9 Copyright ', new Date().getFullYear(), ' ', this.props.data.name],
+                              }),
                             }),
                           ],
                         }),
@@ -367,7 +357,7 @@
                         return Object(t.jsxs)(
                           'li',
                           {
-                            style: { marginLeft: '3%', display: 'inline-block', width: '43%' },
+                            style: { marginLeft: '3%', display: 'inline-block', width: '47%' },
                             title: e.desc,
                             children: [
                               Object(t.jsx)('span', { style: { width: e.level }, className: a }),
@@ -417,7 +407,7 @@
                             children: Object(t.jsx)('h1', { children: Object(t.jsx)('span', { children: 'Skills' }) }),
                           }),
                           Object(t.jsx)('div', {
-                            className: 'tweleve columns main-col',
+                            className: 'eleven columns main-col',
                             children: Object(t.jsx)('div', {
                               className: 'bars container',
                               children: Object(t.jsx)('ul', { className: 'skills row', children: s }),
@@ -545,7 +535,7 @@
                                         }),
                                         Object(t.jsx)('textarea', {
                                           cols: '50',
-                                          rows: '15',
+                                          rows: '7',
                                           id: 'contactMessage',
                                           name: 'contactMessage',
                                         }),
@@ -677,7 +667,8 @@
                   'Track courses :\n1. Object-oriented using C#\n2. Client-side technologies (HTML 4-5, CSS 2-3, JavaScript 5-6 Design patterns)\n3. jQuery + jQuery UI\n4. Database (MS SQL Server, MongoDB)\n5. Node, Express, Ajax\n6. Angular 7\n7. Responsive web (Bootstrap 4)\n8. Freelancing, Communication, Presentation, CV writing skills',
               },
               {
-                school: 'Next Technology Leaders (NTL), UC-Davis , and ICT',
+                school:
+                  'Next Technology Leaders (NTL), University of California - Davis (UC-Davis) , and Technology Innovation & Entrepreneurship Center (TIEC) Online',
                 degree: 'Trainee as GIS Specialist',
                 graduated: 'Jul 2018',
                 description:
@@ -698,14 +689,14 @@
                   'List of subjects:\nThe foundations of physical geography (6 months)\nThe foundations of human geography (6 months)\nGeography of Africa (3 months)\nGeography of Arab World (3 months)\nGeography of Asia (3 months)\nIntroduction to Cartography (4 months)\nIntroduction to GIS (3 months)\nAdvanced GIS (3 months)\nAerial photography\u200e (3 months)\nMap projection (3 months)\nGeomorphology (6 months)\nClimatology and Meteorology (6 months)\nHydrology (3 months)\nBiogeography (3 months)\nOceanography and Limnology (3 months)\nEconomic geography (6 months)\nPolitical Geography (3 months)\nPopulation geography (6 months)\nSettlement geography (3 months)\nEnvironmental problems (3 months)\nGeography of Egypt (6 months)',
               },
               {
-                school: 'Arab Academy for Science, Technology and Maritime Transport',
+                school: 'Arab Academy for Science, Technology and Maritime Transport (AASTMT) Alexandria',
                 degree: 'Trainee as GIS Specialist',
                 graduated: 'Sep 2017',
                 description:
                   'GIS Courses \u2013 Grade: A\n1. Fundamentals of GIS\n2. Advanced Editing Auto-CAD Map\n3. Spatial Analysis in ArcGIS\n4. Geo-Database for ArcGIS\n5. Map-Info Professional Basics',
               },
               {
-                school: 'Institute of Graduate Stadies and Research (IGSR)',
+                school: 'Institute of Graduate Stadies and Research (IGSR) Alexandria',
                 degree: 'Trainee as GIS, RS Specialist',
                 graduated: 'Dec 2016',
                 description:
@@ -996,4 +987,4 @@
   },
   [[19, 1, 2]],
 ]);
-//# sourceMappingURL=main.ba58c81f.chunk.js.map
+//# sourceMappingURL=main.bc3b09e3.chunk.js.map

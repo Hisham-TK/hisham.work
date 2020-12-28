@@ -108,7 +108,8 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 8. Freelancing, Communication, Presentation, CV writing skills`,
       },
       {
-        school: 'Next Technology Leaders (NTL), UC-Davis , and ICT',
+        school:
+          'Next Technology Leaders (NTL), University of California - Davis (UC-Davis) , and Technology Innovation & Entrepreneurship Center (TIEC) Online',
         degree: 'Trainee as GIS Specialist',
         graduated: 'Jul 2018',
         description: `Specialization Courses :
@@ -161,7 +162,7 @@ Environmental problems (3 months)
 Geography of Egypt (6 months)`,
       },
       {
-        school: 'Arab Academy for Science, Technology and Maritime Transport',
+        school: 'Arab Academy for Science, Technology and Maritime Transport (AASTMT) Alexandria',
         degree: 'Trainee as GIS Specialist',
         graduated: 'Sep 2017',
         description: `GIS Courses – Grade: A
@@ -172,7 +173,7 @@ Geography of Egypt (6 months)`,
 5. Map-Info Professional Basics`,
       },
       {
-        school: 'Institute of Graduate Stadies and Research (IGSR)',
+        school: 'Institute of Graduate Stadies and Research (IGSR) Alexandria',
         degree: 'Trainee as GIS, RS Specialist',
         graduated: 'Dec 2016',
         description: `GIS Courses – Grade: A
