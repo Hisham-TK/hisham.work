@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 const exractNum = (obj) => +/^\d+/.exec(obj.level)[0];
 
@@ -6,10 +6,7 @@ class Resume extends Component {
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function (
-        education,
-        index
-      ) {
+      var education = this.props.data.education.map(function (education, index) {
         return (
           <React.Fragment>
             {index ? <hr /> : false}
@@ -41,19 +38,21 @@ class Resume extends Component {
       });
       var skills = this.props.data.skills
         // .sort((a, b) => exractNum(b) - exractNum(a))
-        .map(function (skills) {
-          var className = "bar-expand " + skills.name.toLowerCase();
+        .map(function (skill) {
+          var className = 'bar-expand ' + skill.name.toLowerCase();
           return (
             <li
-              key={skills.name}
-              className="five"
-              style={{ marginLeft: "1em", display: "inline-block" }}
+              key={skill.name}
+              //   className="ten"
+              style={{
+                marginLeft: '3%',
+                display: 'inline-block',
+                width: '43%',
+              }}
+              title={skill.desc}
             >
-              <span
-                style={{ width: skills.level }}
-                className={className}
-              ></span>
-              <em>{skills.name}</em>
+              <span style={{ width: skill.level }} className={className}></span>
+              <em>{skill.name}</em>
             </li>
           );
         });
@@ -92,8 +91,8 @@ class Resume extends Component {
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <h5>{skillmessage}</h5>
+          <div className="tweleve columns main-col">
+            {/* <h5 style={{ textAlign: "center" }}>{skillmessage}</h5> */}
             <div className="bars container">
               <ul className="skills row">{skills}</ul>
             </div>

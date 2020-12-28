@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Contact extends Component {
   render() {
@@ -9,7 +9,7 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
-    //   var email = this.props.data.email;
+      var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
@@ -75,12 +75,7 @@ class Contact extends Component {
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
-                  <textarea
-                    cols="50"
-                    rows="15"
-                    id="contactMessage"
-                    name="contactMessage"
-                  ></textarea>
+                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                 </div>
 
                 <div>
