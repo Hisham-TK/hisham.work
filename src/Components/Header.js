@@ -44,16 +44,16 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#portfolio">
                 Works
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a className="smoothscroll" href="#testimonials">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact

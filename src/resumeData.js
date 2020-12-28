@@ -300,7 +300,7 @@ Remote Sensing Courses – Grade: A
         level: "95%",
       },
       {
-        name: "Geographic Information system",
+        name: "GIS",
         level: "95%",
       },
       {
@@ -312,7 +312,7 @@ Remote Sensing Courses – Grade: A
         level: "95%",
       },
       {
-        name: "Remote Sensing",
+        name: "Remote Sensing (RS)",
         level: "90%",
       },
     ],

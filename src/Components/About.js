@@ -31,11 +31,11 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>{bio}</p>
-            <a href={gisWebsite} target="_blank" className="m-2">
+            <a href={gisWebsite} target="_blank" >
               GIS Projects Samples
             </a>
             &nbsp;&nbsp; - &nbsp;&nbsp;
-            <a href={website} target="_blank" className="m-2">
+            <a href={website} target="_blank" >
               Development Website URL
             </a>
             <div className="row">
