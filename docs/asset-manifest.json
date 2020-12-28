@@ -12,9 +12,9 @@
     "static/js/2.867beda4.chunk.js.LICENSE.txt": "/hisham.work/static/js/2.867beda4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.78dee2bf.js",
-    "static/js/2.867beda4.chunk.js",
-    "static/css/main.bab0b925.chunk.css",
-    "static/js/main.25286b12.chunk.js"
+    "/hisham.work/static/js/runtime-main.78dee2bf.js",
+    "/hisham.work/static/js/2.867beda4.chunk.js",
+    "/hisham.work/static/css/main.bab0b925.chunk.css",
+    "/hisham.work/static/js/main.25286b12.chunk.js"
   ]
 }
