@@ -1,7 +1,7 @@
 export default {
   main: {
     name: "Hisham Taha Kamal-Al-Din",
-    occupation: "Software Developer (MEAN Stack)",
+    occupation: "Software Developer (JavaScript, TypeScript, Node.js, Express.js, Nest.js, MongoDB, Angular, React) Developer",
     description:
       "Creative, detail-oriented, ambitious, assiduous, animated JavaScript developer",
     image: "profilepic.jpg",
@@ -39,6 +39,21 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
         url: "https://www.facebook.com/Hisham.Taha.Kamal.AlDin",
         className: "fa fa-facebook",
       },
+      {
+        name: "GIS Website",
+        url: "https://hisham-taha.portfoliobox.net/",
+        className: "fa fa-globe",
+      },
+      {
+        name: "Code wars",
+        url: "https://www.codewars.com/users/Hisham.Taha",
+        className: "fa fa-code",
+      },
+      {
+          name: "GMail",
+          url: "mailto:hisham.taha.work@gmail.com?Subject=I'm%20?%20My%20Phone%20Number%20?%20My%20E-mail%20?%20I%20would%20like%20to%20ask%20you%20about%20",
+          className: "fa fa-envelope-open-text"
+      }
       //   {
       //     name: "twitter",
       //     url: "http://twitter.com",
