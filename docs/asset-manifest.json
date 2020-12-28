@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/hisham.work/static/css/main.bab0b925.chunk.css",
-    "main.js": "/hisham.work/static/js/main.2ba979a9.chunk.js",
-    "main.js.map": "/hisham.work/static/js/main.2ba979a9.chunk.js.map",
-    "runtime-main.js": "/hisham.work/static/js/runtime-main.78dee2bf.js",
-    "runtime-main.js.map": "/hisham.work/static/js/runtime-main.78dee2bf.js.map",
-    "static/js/2.867beda4.chunk.js": "/hisham.work/static/js/2.867beda4.chunk.js",
-    "static/js/2.867beda4.chunk.js.map": "/hisham.work/static/js/2.867beda4.chunk.js.map",
+    "main.js": "/hisham.work/static/js/main.de554a84.chunk.js",
+    "main.js.map": "/hisham.work/static/js/main.de554a84.chunk.js.map",
+    "runtime-main.js": "/hisham.work/static/js/runtime-main.ba8da160.js",
+    "runtime-main.js.map": "/hisham.work/static/js/runtime-main.ba8da160.js.map",
+    "static/js/2.3f5f8784.chunk.js": "/hisham.work/static/js/2.3f5f8784.chunk.js",
+    "static/js/2.3f5f8784.chunk.js.map": "/hisham.work/static/js/2.3f5f8784.chunk.js.map",
     "index.html": "/hisham.work/index.html",
     "static/css/main.bab0b925.chunk.css.map": "/hisham.work/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.867beda4.chunk.js.LICENSE.txt": "/hisham.work/static/js/2.867beda4.chunk.js.LICENSE.txt"
+    "static/js/2.3f5f8784.chunk.js.LICENSE.txt": "/hisham.work/static/js/2.3f5f8784.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "/hisham.work/static/js/runtime-main.78dee2bf.js",
-    "/hisham.work/static/js/2.867beda4.chunk.js",
+    "/hisham.work/static/js/runtime-main.ba8da160.js",
+    "/hisham.work/static/js/2.3f5f8784.chunk.js",
     "/hisham.work/static/css/main.bab0b925.chunk.css",
-    "/hisham.work/static/js/main.2ba979a9.chunk.js"
+    "/hisham.work/static/js/main.de554a84.chunk.js"
   ]
 }
