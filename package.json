@@ -1,5 +1,6 @@
 {
-  "name": "personalportfolio",
+  "homepage": "https://hisham-tk.github.io/hisham.work",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
