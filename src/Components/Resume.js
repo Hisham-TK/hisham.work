@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+const exractNum = (obj) => +/^\d+/.exec(obj.level)[0];
+
 class Resume extends Component {
   render() {
     if (this.props.data) {
@@ -37,19 +39,24 @@ class Resume extends Component {
           </React.Fragment>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
-        var className = "bar-expand " + skills.name.toLowerCase();
-        return (
-          <li
-            key={skills.name}
-            className="five"
-            style={{ marginLeft: "1em", display: "inline-block" }}
-          >
-            <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
+      var skills = this.props.data.skills
+        // .sort((a, b) => exractNum(b) - exractNum(a))
+        .map(function (skills) {
+          var className = "bar-expand " + skills.name.toLowerCase();
+          return (
+            <li
+              key={skills.name}
+              className="five"
+              style={{ marginLeft: "1em", display: "inline-block" }}
+            >
+              <span
+                style={{ width: skills.level }}
+                className={className}
+              ></span>
+              <em>{skills.name}</em>
+            </li>
+          );
+        });
     }
 
     return (

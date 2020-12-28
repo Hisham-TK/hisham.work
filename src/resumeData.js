@@ -283,8 +283,8 @@ Remote Sensing Courses – Grade: A
         level: "90%",
       },
       {
-        name: "Joi",
-        level: "95%",
+        name: "@Hapi/joi",
+        level: "90%",
       },
       {
         name: "ElasticSearch",
@@ -292,10 +292,10 @@ Remote Sensing Courses – Grade: A
       },
       {
         name: "Git",
-        level: "95%",
+        level: "90%",
       },
       {
-        name: "CircleCI 2",
+        name: "CircleCI",
         level: "80%",
       },
       {
