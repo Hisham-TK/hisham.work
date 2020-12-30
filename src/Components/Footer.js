@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Footer extends Component {
+export default class Footer extends Component {
   render() {
     if (this.props.data) {
       var networks = this.props.data.social.map(function (network) {
@@ -42,5 +42,3 @@ class Footer extends Component {
     );
   }
 }
-
-export default Footer;

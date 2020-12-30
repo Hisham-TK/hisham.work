@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Contact extends Component {
+export default class Contact extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -141,5 +141,3 @@ class Contact extends Component {
     );
   }
 }
-
-export default Contact;

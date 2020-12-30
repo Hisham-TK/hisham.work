@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Testimonials extends Component {
+export default class Testimonials extends Component {
   render() {
     if (this.props.data) {
       var testimonials = this.props.data.testimonials.map(function (testimonials) {
@@ -34,5 +34,3 @@ class Testimonials extends Component {
     );
   }
 }
-
-export default Testimonials;

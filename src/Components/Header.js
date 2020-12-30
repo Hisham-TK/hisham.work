@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -44,21 +44,25 @@ class Header extends Component {
                 Resume
               </a>
             </li> */}
+
             <li>
               <a className="smoothscroll" href="#work">
                 Work
               </a>
             </li>
-            <li>
-              <a className="smoothscroll" href="#education">
-                Education
-              </a>
-            </li>
+
             <li>
               <a className="smoothscroll" href="#skills">
                 Skills
               </a>
             </li>
+
+            <li>
+              <a className="smoothscroll" href="#education">
+                Education
+              </a>
+            </li>
+
             {/* <li>
               <a className="smoothscroll" href="#portfolio">
                 Works
@@ -97,5 +101,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;
