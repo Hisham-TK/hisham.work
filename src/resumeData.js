@@ -33,25 +33,30 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
         className: 'fa fa-github',
       },
       {
-        name: 'Facebook',
-        url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
-        className: 'fa fa-facebook',
-      },
-      {
         name: 'GIS Website',
         url: 'https://hisham-taha.portfoliobox.net/',
-        className: 'fa fa-globe',
+        className: 'fa fa-globe-africa',
       },
       {
-        name: 'Code-Wars',
+        name: 'Solo learn',
+        url: 'https://www.sololearn.com/Profile/7251463',
+        className: 'fa fa-graduation-cap',
+      },
+      {
+        name: 'Code-wars',
         url: 'https://www.codewars.com/users/Hisham.Taha',
-        className: 'fa fa-code',
+        className: 'fab fa-galactic-republic',
       },
       {
         name: 'Send E-Mail',
         url:
           "mailto:hisham.taha.work@gmail.com?Subject=I'm%20?%20My%20Phone%20Number%20?%20My%20E-mail%20?%20I%20would%20like%20to%20ask%20you%20about%20",
-        className: 'fa fa-envelope-open-text',
+        className: 'fas fa-at',
+      },
+      {
+        name: 'Facebook',
+        url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
+        className: 'fa fa-facebook',
       },
       //   {
       //     name: "twitter",
@@ -431,18 +436,28 @@ Remote Sensing Courses – Grade: A
   //     ],
   //   },
   //   TODO
-  //   testimonials: {
-  //     testimonials: [
-  //       {
-  //         text:
-  //           "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-  //         user: "Kareem Abdul Jabbar",
-  //       },
-  //       {
-  //         text:
-  //           "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-  //         user: "Steve Wozniak... impersonator",
-  //       },
-  //     ],
-  //   },
+  testimonials: {
+    testimonials: [
+      { text: '“Simplicity is the soul of efficiency.”', user: 'Austin Freeman' },
+      {
+        text: '“First, solve the problem. Then, write the code.”',
+        user: 'John Johnson',
+      },
+      //   {
+      //     text:
+      //       '“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”',
+      //     user: 'Martin Fowler',
+      //   },
+      {
+        text:
+          '“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” ',
+        user: 'Antoine de Saint-Exupery',
+      },
+      { text: '“Fix the cause, not the symptom.”', user: 'Steve Maguire' },
+      { text: '“Optimism is an occupational hazard of programming: feedback is the treatment. “', user: 'Kent Beck' },
+      //   { text: '', user: '' },
+      //   { text: '', user: '' },
+      //   { text: '', user: '' },
+    ],
+  },
 };

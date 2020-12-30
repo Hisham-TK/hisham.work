@@ -10,11 +10,9 @@ class Header extends Component {
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            {/* <abbr title={network.name} style={{ cursor: "pointer" }}> */}
             <a href={network.url} target="_blank" title={network.name}>
               <i className={network.className}></i>
             </a>
-            {/* </abbr> */}
           </li>
         );
       });
@@ -41,9 +39,24 @@ class Header extends Component {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#resume">
                 Resume
+              </a>
+            </li> */}
+            <li>
+              <a className="smoothscroll" href="#work">
+                Work
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#education">
+                Education
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#skills">
+                Skills
               </a>
             </li>
             {/* <li>
@@ -51,11 +64,11 @@ class Header extends Component {
                 Works
               </a>
             </li> */}
-            {/* <li>
+            <li>
               <a className="smoothscroll" href="#testimonials">
                 Testimonials
               </a>
-            </li> */}
+            </li>
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact
