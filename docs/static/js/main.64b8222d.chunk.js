@@ -109,8 +109,8 @@
                                 Object(s.jsx)('li', {
                                   children: Object(s.jsx)('a', {
                                     className: 'smoothscroll',
-                                    href: '#testimonials',
-                                    children: 'Testimonials',
+                                    href: '#quotes',
+                                    children: 'Quotes',
                                   }),
                                 }),
                                 Object(s.jsx)('li', {
@@ -163,65 +163,6 @@
             );
           })(n.Component)),
         u = (function (e) {
-          Object(d.a)(t, e);
-          var a = Object(h.a)(t);
-          function t() {
-            return Object(c.a)(this, t), a.apply(this, arguments);
-          }
-          return (
-            Object(l.a)(t, [
-              {
-                key: 'render',
-                value: function () {
-                  if (this.props.data)
-                    var e = this.props.data.social.map(function (e) {
-                      return Object(s.jsx)(
-                        'li',
-                        {
-                          children: Object(s.jsx)('a', {
-                            href: e.url,
-                            target: '_blank',
-                            children: Object(s.jsx)('i', { className: e.className }),
-                          }),
-                        },
-                        e.name,
-                      );
-                    });
-                  return Object(s.jsx)('footer', {
-                    children: Object(s.jsxs)('div', {
-                      className: 'row',
-                      children: [
-                        Object(s.jsxs)('div', {
-                          className: 'twelve columns',
-                          children: [
-                            Object(s.jsx)('ul', { className: 'social-links', children: e }),
-                            Object(s.jsx)('ul', {
-                              className: 'copyright',
-                              children: Object(s.jsxs)('li', {
-                                children: ['\xa9 Copyright ', new Date().getFullYear(), ' ', this.props.data.name],
-                              }),
-                            }),
-                          ],
-                        }),
-                        Object(s.jsx)('div', {
-                          id: 'go-top',
-                          children: Object(s.jsx)('a', {
-                            className: 'smoothscroll',
-                            title: 'Back to Top',
-                            href: '#home',
-                            children: Object(s.jsx)('i', { className: 'icon-up-open' }),
-                          }),
-                        }),
-                      ],
-                    }),
-                  });
-                },
-              },
-            ]),
-            t
-          );
-        })(n.Component),
-        j = (function (e) {
           Object(d.a)(t, e);
           var a = Object(h.a)(t);
           function t() {
@@ -307,7 +248,7 @@
             t
           );
         })(n.Component),
-        b = (function (e) {
+        j = (function (e) {
           Object(d.a)(t, e);
           var a = Object(h.a)(t);
           function t() {
@@ -487,6 +428,63 @@
             t
           );
         })(n.Component),
+        b = (function (e) {
+          Object(d.a)(t, e);
+          var a = Object(h.a)(t);
+          function t() {
+            return Object(c.a)(this, t), a.apply(this, arguments);
+          }
+          return (
+            Object(l.a)(t, [
+              {
+                key: 'render',
+                value: function () {
+                  if (this.props.data)
+                    var e = this.props.data.map(function (e, a) {
+                      return Object(s.jsxs)(i.a.Fragment, {
+                        children: [
+                          !!a && Object(s.jsx)('hr', {}),
+                          Object(s.jsxs)(
+                            'div',
+                            {
+                              children: [
+                                Object(s.jsx)('h3', { children: e.company }),
+                                Object(s.jsxs)('p', {
+                                  className: 'info',
+                                  children: [
+                                    e.title,
+                                    Object(s.jsx)('span', { children: '\u2022' }),
+                                    ' ',
+                                    Object(s.jsx)('em', { className: 'date', children: e.years }),
+                                  ],
+                                }),
+                                Object(s.jsx)('p', { children: e.description }),
+                              ],
+                            },
+                            e.company,
+                          ),
+                        ],
+                      });
+                    });
+                  return Object(s.jsx)('section', {
+                    id: 'work',
+                    children: Object(s.jsxs)('div', {
+                      className: 'row work',
+                      children: [
+                        Object(s.jsx)('div', {
+                          className: 'three columns header-col',
+                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Work' }) }),
+                        }),
+                        Object(s.jsx)('div', { className: 'nine columns main-col', children: e }),
+                      ],
+                    }),
+                  });
+                },
+              },
+            ]),
+            t
+          );
+        })(i.a.Component),
         g = (function (e) {
           Object(d.a)(t, e);
           var a = Object(h.a)(t);
@@ -499,7 +497,123 @@
                 key: 'render',
                 value: function () {
                   if (this.props.data)
-                    var e = this.props.data.testimonials.map(function (e) {
+                    var e = this.props.data.map(function (e) {
+                      var a = 'bar-expand ' + e.name.toLowerCase();
+                      return Object(s.jsxs)(
+                        'li',
+                        {
+                          style: { marginLeft: '3%', display: 'inline-block', width: '47%' },
+                          title: e.desc,
+                          children: [
+                            Object(s.jsx)('span', { style: { width: e.level }, className: a }),
+                            Object(s.jsx)('em', { children: e.name }),
+                          ],
+                        },
+                        e.name,
+                      );
+                    });
+                  return Object(s.jsx)('section', {
+                    id: 'skills',
+                    children: Object(s.jsxs)('div', {
+                      className: 'row skill',
+                      children: [
+                        Object(s.jsx)('div', {
+                          className: 'three columns header-col',
+                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Skills' }) }),
+                        }),
+                        Object(s.jsx)('div', {
+                          className: 'eleven columns main-col',
+                          children: Object(s.jsx)('div', {
+                            className: 'bars container',
+                            children: Object(s.jsx)('ul', { className: 'skills row', children: e }),
+                          }),
+                        }),
+                      ],
+                    }),
+                  });
+                },
+              },
+            ]),
+            t
+          );
+        })(n.Component),
+        f = (function (e) {
+          Object(d.a)(t, e);
+          var a = Object(h.a)(t);
+          function t() {
+            return Object(c.a)(this, t), a.apply(this, arguments);
+          }
+          return (
+            Object(l.a)(t, [
+              {
+                key: 'render',
+                value: function () {
+                  if (this.props.data)
+                    var e = this.props.data.map(function (e, a) {
+                      return Object(s.jsxs)(i.a.Fragment, {
+                        children: [
+                          !!a && Object(s.jsx)('hr', {}),
+                          Object(s.jsxs)(
+                            'div',
+                            {
+                              className: '',
+                              children: [
+                                Object(s.jsx)('h3', { children: e.school }),
+                                Object(s.jsxs)('p', {
+                                  className: 'info',
+                                  children: [
+                                    e.degree,
+                                    ' ',
+                                    Object(s.jsx)('span', { children: '\u2022' }),
+                                    Object(s.jsx)('em', { className: 'date', children: e.graduated }),
+                                  ],
+                                }),
+                                Object(s.jsx)('pre', { children: e.description }),
+                              ],
+                            },
+                            e.school,
+                          ),
+                        ],
+                      });
+                    });
+                  return Object(s.jsx)('section', {
+                    id: 'education',
+                    children: Object(s.jsxs)('div', {
+                      className: 'row education',
+                      children: [
+                        Object(s.jsx)('div', {
+                          className: 'three columns header-col',
+                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Education' }) }),
+                        }),
+                        Object(s.jsx)('div', {
+                          className: 'nine columns main-col',
+                          children: Object(s.jsx)('div', {
+                            className: 'row item',
+                            children: Object(s.jsx)('div', { className: 'twelve columns', children: e }),
+                          }),
+                        }),
+                      ],
+                    }),
+                  });
+                },
+              },
+            ]),
+            t
+          );
+        })(n.Component),
+        v = (function (e) {
+          Object(d.a)(t, e);
+          var a = Object(h.a)(t);
+          function t() {
+            return Object(c.a)(this, t), a.apply(this, arguments);
+          }
+          return (
+            Object(l.a)(t, [
+              {
+                key: 'render',
+                value: function () {
+                  if (this.props.data)
+                    var e = this.props.data.map(function (e) {
                       return Object(s.jsx)(
                         'li',
                         {
@@ -514,7 +628,7 @@
                       );
                     });
                   return Object(s.jsx)('section', {
-                    id: 'testimonials',
+                    id: 'quotes',
                     children: Object(s.jsx)('div', {
                       className: 'text-container',
                       children: Object(s.jsxs)('div', {
@@ -523,7 +637,7 @@
                           Object(s.jsx)('div', {
                             className: 'two columns header-col',
                             children: Object(s.jsx)('h1', {
-                              children: Object(s.jsx)('span', { children: 'Client Testimonials' }),
+                              children: Object(s.jsx)('span', { children: 'Client Quotes' }),
                             }),
                           }),
                           Object(s.jsx)('div', {
@@ -540,7 +654,66 @@
             t
           );
         })(n.Component),
-        f = {
+        x = (function (e) {
+          Object(d.a)(t, e);
+          var a = Object(h.a)(t);
+          function t() {
+            return Object(c.a)(this, t), a.apply(this, arguments);
+          }
+          return (
+            Object(l.a)(t, [
+              {
+                key: 'render',
+                value: function () {
+                  if (this.props.data)
+                    var e = this.props.data.social.map(function (e) {
+                      return Object(s.jsx)(
+                        'li',
+                        {
+                          children: Object(s.jsx)('a', {
+                            href: e.url,
+                            target: '_blank',
+                            children: Object(s.jsx)('i', { className: e.className }),
+                          }),
+                        },
+                        e.name,
+                      );
+                    });
+                  return Object(s.jsx)('footer', {
+                    children: Object(s.jsxs)('div', {
+                      className: 'row',
+                      children: [
+                        Object(s.jsxs)('div', {
+                          className: 'twelve columns',
+                          children: [
+                            Object(s.jsx)('ul', { className: 'social-links', children: e }),
+                            Object(s.jsx)('ul', {
+                              className: 'copyright',
+                              children: Object(s.jsxs)('li', {
+                                children: ['\xa9 Copyright ', new Date().getFullYear(), ' ', this.props.data.name],
+                              }),
+                            }),
+                          ],
+                        }),
+                        Object(s.jsx)('div', {
+                          id: 'go-top',
+                          children: Object(s.jsx)('a', {
+                            className: 'smoothscroll',
+                            title: 'Back to Top',
+                            href: '#home',
+                            children: Object(s.jsx)('i', { className: 'icon-up-open' }),
+                          }),
+                        }),
+                      ],
+                    }),
+                  });
+                },
+              },
+            ]),
+            t
+          );
+        })(n.Component),
+        O = {
           main: {
             name: 'Hisham Taha Kamal-Al-Din',
             occupation:
@@ -843,196 +1016,21 @@
               level: '90%',
             },
           ],
-          testimonials: {
-            testimonials: [
-              { text: '\u201cSimplicity is the soul of efficiency.\u201d', user: 'Austin Freeman' },
-              { text: '\u201cFirst, solve the problem. Then, write the code.\u201d', user: 'John Johnson' },
-              {
-                text:
-                  '\u201cPerfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.\u201d ',
-                user: 'Antoine de Saint-Exupery',
-              },
-              { text: '\u201cFix the cause, not the symptom.\u201d', user: 'Steve Maguire' },
-              {
-                text: '\u201cOptimism is an occupational hazard of programming: feedback is the treatment. \u201c',
-                user: 'Kent Beck',
-              },
-            ],
-          },
+          quotes: [
+            { text: '\u201cSimplicity is the soul of efficiency.\u201d', user: 'Austin Freeman' },
+            { text: '\u201cFirst, solve the problem. Then, write the code.\u201d', user: 'John Johnson' },
+            {
+              text:
+                '\u201cPerfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.\u201d ',
+              user: 'Antoine de Saint-Exupery',
+            },
+            { text: '\u201cFix the cause, not the symptom.\u201d', user: 'Steve Maguire' },
+            {
+              text: '\u201cOptimism is an occupational hazard of programming: feedback is the treatment. \u201c',
+              user: 'Kent Beck',
+            },
+          ],
         },
-        v = (function (e) {
-          Object(d.a)(t, e);
-          var a = Object(h.a)(t);
-          function t() {
-            return Object(c.a)(this, t), a.apply(this, arguments);
-          }
-          return (
-            Object(l.a)(t, [
-              {
-                key: 'render',
-                value: function () {
-                  if (this.props.data)
-                    var e = this.props.data.map(function (e, a) {
-                      return Object(s.jsxs)(i.a.Fragment, {
-                        children: [
-                          !!a && Object(s.jsx)('hr', {}),
-                          Object(s.jsxs)(
-                            'div',
-                            {
-                              children: [
-                                Object(s.jsx)('h3', { children: e.company }),
-                                Object(s.jsxs)('p', {
-                                  className: 'info',
-                                  children: [
-                                    e.title,
-                                    Object(s.jsx)('span', { children: '\u2022' }),
-                                    ' ',
-                                    Object(s.jsx)('em', { className: 'date', children: e.years }),
-                                  ],
-                                }),
-                                Object(s.jsx)('p', { children: e.description }),
-                              ],
-                            },
-                            e.company,
-                          ),
-                        ],
-                      });
-                    });
-                  return Object(s.jsx)('section', {
-                    id: 'work',
-                    children: Object(s.jsxs)('div', {
-                      className: 'row work',
-                      children: [
-                        Object(s.jsx)('div', {
-                          className: 'three columns header-col',
-                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Work' }) }),
-                        }),
-                        Object(s.jsx)('div', { className: 'nine columns main-col', children: e }),
-                      ],
-                    }),
-                  });
-                },
-              },
-            ]),
-            t
-          );
-        })(i.a.Component),
-        x = (function (e) {
-          Object(d.a)(t, e);
-          var a = Object(h.a)(t);
-          function t() {
-            return Object(c.a)(this, t), a.apply(this, arguments);
-          }
-          return (
-            Object(l.a)(t, [
-              {
-                key: 'render',
-                value: function () {
-                  if (this.props.data)
-                    var e = this.props.data.map(function (e) {
-                      var a = 'bar-expand ' + e.name.toLowerCase();
-                      return Object(s.jsxs)(
-                        'li',
-                        {
-                          style: { marginLeft: '3%', display: 'inline-block', width: '47%' },
-                          title: e.desc,
-                          children: [
-                            Object(s.jsx)('span', { style: { width: e.level }, className: a }),
-                            Object(s.jsx)('em', { children: e.name }),
-                          ],
-                        },
-                        e.name,
-                      );
-                    });
-                  return Object(s.jsx)('section', {
-                    id: 'skills',
-                    children: Object(s.jsxs)('div', {
-                      className: 'row skill',
-                      children: [
-                        Object(s.jsx)('div', {
-                          className: 'three columns header-col',
-                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Skills' }) }),
-                        }),
-                        Object(s.jsx)('div', {
-                          className: 'eleven columns main-col',
-                          children: Object(s.jsx)('div', {
-                            className: 'bars container',
-                            children: Object(s.jsx)('ul', { className: 'skills row', children: e }),
-                          }),
-                        }),
-                      ],
-                    }),
-                  });
-                },
-              },
-            ]),
-            t
-          );
-        })(n.Component),
-        O = (function (e) {
-          Object(d.a)(t, e);
-          var a = Object(h.a)(t);
-          function t() {
-            return Object(c.a)(this, t), a.apply(this, arguments);
-          }
-          return (
-            Object(l.a)(t, [
-              {
-                key: 'render',
-                value: function () {
-                  if (this.props.data)
-                    var e = this.props.data.map(function (e, a) {
-                      return Object(s.jsxs)(i.a.Fragment, {
-                        children: [
-                          !!a && Object(s.jsx)('hr', {}),
-                          Object(s.jsxs)(
-                            'div',
-                            {
-                              className: '',
-                              children: [
-                                Object(s.jsx)('h3', { children: e.school }),
-                                Object(s.jsxs)('p', {
-                                  className: 'info',
-                                  children: [
-                                    e.degree,
-                                    ' ',
-                                    Object(s.jsx)('span', { children: '\u2022' }),
-                                    Object(s.jsx)('em', { className: 'date', children: e.graduated }),
-                                  ],
-                                }),
-                                Object(s.jsx)('pre', { children: e.description }),
-                              ],
-                            },
-                            e.school,
-                          ),
-                        ],
-                      });
-                    });
-                  return Object(s.jsx)('section', {
-                    id: 'education',
-                    children: Object(s.jsxs)('div', {
-                      className: 'row education',
-                      children: [
-                        Object(s.jsx)('div', {
-                          className: 'three columns header-col',
-                          children: Object(s.jsx)('h1', { children: Object(s.jsx)('span', { children: 'Education' }) }),
-                        }),
-                        Object(s.jsx)('div', {
-                          className: 'nine columns main-col',
-                          children: Object(s.jsx)('div', {
-                            className: 'row item',
-                            children: Object(s.jsx)('div', { className: 'twelve columns', children: e }),
-                          }),
-                        }),
-                      ],
-                    }),
-                  });
-                },
-              },
-            ]),
-            t
-          );
-        })(n.Component),
         y = (function (e) {
           Object(d.a)(t, e);
           var a = Object(h.a)(t);
@@ -1040,7 +1038,7 @@
             var s;
             return (
               Object(c.a)(this, t),
-              ((s = a.call(this, e)).state = { foo: 'bar', resumeData: f }),
+              ((s = a.call(this, e)).state = { foo: 'bar', resumeData: O }),
               m.a.initialize('UA-110570651-1'),
               m.a.pageview(window.location.pathname),
               s
@@ -1055,13 +1053,13 @@
                     className: 'App',
                     children: [
                       Object(s.jsx)(p, { data: this.state.resumeData.main }),
-                      Object(s.jsx)(j, { data: this.state.resumeData.main }),
-                      Object(s.jsx)(v, { data: this.state.resumeData.work }),
-                      Object(s.jsx)(x, { data: this.state.resumeData.skills }),
-                      Object(s.jsx)(O, { data: this.state.resumeData.education }),
-                      Object(s.jsx)(g, { data: this.state.resumeData.testimonials }),
-                      Object(s.jsx)(b, { data: this.state.resumeData.main }),
                       Object(s.jsx)(u, { data: this.state.resumeData.main }),
+                      Object(s.jsx)(b, { data: this.state.resumeData.work }),
+                      Object(s.jsx)(g, { data: this.state.resumeData.skills }),
+                      Object(s.jsx)(f, { data: this.state.resumeData.education }),
+                      Object(s.jsx)(v, { data: this.state.resumeData.quotes }),
+                      Object(s.jsx)(j, { data: this.state.resumeData.main }),
+                      Object(s.jsx)(x, { data: this.state.resumeData.main }),
                     ],
                   });
                 },
@@ -1123,4 +1121,4 @@
   },
   [[19, 1, 2]],
 ]);
-//# sourceMappingURL=main.899f9980.chunk.js.map
+//# sourceMappingURL=main.64b8222d.chunk.js.map

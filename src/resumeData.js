@@ -436,28 +436,26 @@ Remote Sensing Courses – Grade: A
   //     ],
   //   },
   //   TODO
-  testimonials: {
-    testimonials: [
-      { text: '“Simplicity is the soul of efficiency.”', user: 'Austin Freeman' },
-      {
-        text: '“First, solve the problem. Then, write the code.”',
-        user: 'John Johnson',
-      },
-      //   {
-      //     text:
-      //       '“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”',
-      //     user: 'Martin Fowler',
-      //   },
-      {
-        text:
-          '“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” ',
-        user: 'Antoine de Saint-Exupery',
-      },
-      { text: '“Fix the cause, not the symptom.”', user: 'Steve Maguire' },
-      { text: '“Optimism is an occupational hazard of programming: feedback is the treatment. “', user: 'Kent Beck' },
-      //   { text: '', user: '' },
-      //   { text: '', user: '' },
-      //   { text: '', user: '' },
-    ],
-  },
+  quotes: [
+    { text: '“Simplicity is the soul of efficiency.”', user: 'Austin Freeman' },
+    {
+      text: '“First, solve the problem. Then, write the code.”',
+      user: 'John Johnson',
+    },
+    //   {
+    //     text:
+    //       '“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”',
+    //     user: 'Martin Fowler',
+    //   },
+    {
+      text:
+        '“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” ',
+      user: 'Antoine de Saint-Exupery',
+    },
+    { text: '“Fix the cause, not the symptom.”', user: 'Steve Maguire' },
+    { text: '“Optimism is an occupational hazard of programming: feedback is the treatment. “', user: 'Kent Beck' },
+    //   { text: '', user: '' },
+    //   { text: '', user: '' },
+    //   { text: '', user: '' },
+  ],
 };
