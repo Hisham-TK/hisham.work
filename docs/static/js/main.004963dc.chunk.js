@@ -1071,9 +1071,9 @@
       r.a.render(Object(s.jsx)(x, {}), document.getElementById('root')),
         (function () {
           if ('serviceWorker' in navigator) {
-            if (new URL('', window.location).origin !== window.location.origin) return;
+            if (new URL('/hisham.work', window.location).origin !== window.location.origin) return;
             window.addEventListener('load', function () {
-              var e = ''.concat('', '/service-worker.js');
+              var e = ''.concat('/hisham.work', '/service-worker.js');
               O
                 ? (function (e) {
                     fetch(e)
@@ -1098,4 +1098,4 @@
   },
   [[19, 1, 2]],
 ]);
-//# sourceMappingURL=main.f28866db.chunk.js.map
+//# sourceMappingURL=main.004963dc.chunk.js.map
