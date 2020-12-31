@@ -12,9 +12,10 @@
   },
   "scripts": {
     "format": "prettier --write \"src\" \"public/**/*.html\"",
+    "deploy": "npm run build && sleep 5 && git add . && git commit -m 'edits' && git push",
     "prebuild": "rm -rf build docs",
     "build": "react-scripts build",
-    "postbuild": "mv build/ docs",
+    "postbuild": "mv build/ docs && node ./script.js",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
