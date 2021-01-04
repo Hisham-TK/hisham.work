@@ -654,7 +654,7 @@
             t
           );
         })(n.Component),
-        x = (function (e) {
+        O = (function (e) {
           Object(d.a)(t, e);
           var a = Object(h.a)(t);
           function t() {
@@ -713,15 +713,14 @@
             t
           );
         })(n.Component),
-        O = {
+        x = {
           main: {
             name: 'Hisham Taha Kamal-Al-Din',
-            occupation:
-              'Software Developer (JavaScript, TypeScript, Node.js, Express.js, Nest.js, MongoDB, Angular, React) Developer',
+            occupation: 'Software Developer (MEAN/MERN Stack)',
             description: 'Creative, detail-oriented, ambitious, assiduous, animated JavaScript developer',
             image: 'profilepic.jpg',
             bio:
-              'Node/TypeScript/JavaScript Developer, GIS Analyst.\nGraduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stack) Tracks at ITI Diploma. finish scholarship of the Institute of Technological Innovation in Egypt and many other courses.',
+              'TypeScript / JavaScript / Node Developer, GIS Analyst / Web Developer.\nGraduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stack) Tracks at ITI Diploma. finish scholarship of the Institute of Technological Innovation in Egypt and many other courses.',
             gisWebsite: 'https://hisham-taha.portfoliobox.net/projects',
             contactmessage: 'If I can be of assistance, please do not hesitate to contact me...',
             email: 'hisham.taha.work@gmail.com',
@@ -736,16 +735,21 @@
                 className: 'fa fa-linkedin',
               },
               { name: 'GitHub', url: 'https://github.com/Hisham-TK?tab=repositories', className: 'fa fa-github' },
-              { name: 'GIS Website', url: 'https://hisham-taha.portfoliobox.net/', className: 'fa fa-globe-africa' },
+              { name: 'GIS Website', url: 'http://gis.hisham.work/', className: 'fa fa-globe-africa' },
               {
-                name: 'Solo learn',
+                name: 'Solo Learn',
                 url: 'https://www.sololearn.com/Profile/7251463',
                 className: 'fa fa-graduation-cap',
               },
               {
-                name: 'Code-wars',
+                name: 'Code Wars',
                 url: 'https://www.codewars.com/users/Hisham.Taha',
                 className: 'fab fa-galactic-republic',
+              },
+              {
+                name: 'Facebook',
+                url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
+                className: 'fa fa-facebook',
               },
               {
                 name: 'Send E-Mail',
@@ -753,25 +757,20 @@
                   "mailto:hisham.taha.work@gmail.com?Subject=I'm%20?%20My%20Phone%20Number%20?%20My%20E-mail%20?%20I%20would%20like%20to%20ask%20you%20about%20",
                 className: 'fas fa-at',
               },
-              {
-                name: 'Facebook',
-                url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
-                className: 'fa fa-facebook',
-              },
             ],
           },
           work: [
             {
               company: 'Index Group',
               title: 'Intermediate -> Senior Node.js',
-              years: 'Jan 2020 - Present',
+              years: 'Jan 2020 - Jan 2021',
               description:
                 'Fix problems and add new features to any Applications (Courier, Events, Home, Food, Sharing)',
             },
             {
               company: 'MicroTec SA',
               title: 'Junior Software Developer (MEAN Stack)',
-              years: 'Apr 2020 - Des 2020',
+              years: 'Apr 2019 - Jan 2020',
               description:
                 'Build an ERP (Enterprise resource planning) System from business (JIRA User Stories, Wireframes) in Agile process until secured APIs.',
             },
@@ -800,18 +799,18 @@
                 'Track courses :\n1. GIS Fundamentals\n2. ArcGIS (Desktop, Geodatabase, Server, Extensions, Add-ins for Desktop)\n3. Open Source GIS (Q-GIS, Geo-Server, PostgreSQL, CartoView)\n4. Remote Sensing and Digital Image Processing\n5. ERDAS Imagine\n6. Create a Desktop App. using SDK for WPF\n7. Client-Side Technologies (HTML4, CSS2, JavaScript)\n8. Create Web App. Using ArcGIS APIs for JavaScript\n9. Communication, presentation & interviewing skills',
             },
             {
-              school: 'Favulty of Arts, Alexandria University',
-              degree: 'BA in Geographic Information System, & Geography',
-              graduated: 'May 2007',
-              description:
-                'List of subjects:\nThe foundations of physical geography (6 months)\nThe foundations of human geography (6 months)\nGeography of Africa (3 months)\nGeography of Arab World (3 months)\nGeography of Asia (3 months)\nIntroduction to Cartography (4 months)\nIntroduction to GIS (3 months)\nAdvanced GIS (3 months)\nAerial photography\u200e (3 months)\nMap projection (3 months)\nGeomorphology (6 months)\nClimatology and Meteorology (6 months)\nHydrology (3 months)\nBiogeography (3 months)\nOceanography and Limnology (3 months)\nEconomic geography (6 months)\nPolitical Geography (3 months)\nPopulation geography (6 months)\nSettlement geography (3 months)\nEnvironmental problems (3 months)\nGeography of Egypt (6 months)',
-            },
-            {
               school: 'Arab Academy for Science, Technology and Maritime Transport (AASTMT) Alexandria',
               degree: 'Trainee as GIS Specialist',
               graduated: 'Sep 2017',
               description:
                 'GIS Courses \u2013 Grade: A\n1. Fundamentals of GIS\n2. Advanced Editing Auto-CAD Map\n3. Spatial Analysis in ArcGIS\n4. Geo-Database for ArcGIS\n5. Map-Info Professional Basics',
+            },
+            {
+              school: 'Favulty of Arts, Alexandria University',
+              degree: 'BA in Geographic Information System, & Geography',
+              graduated: 'May 2007',
+              description:
+                'List of subjects:\nThe foundations of physical geography (6 months)\nThe foundations of human geography (6 months)\nGeography of Africa (3 months)\nGeography of Arab World (3 months)\nGeography of Asia (3 months)\nIntroduction to Cartography (4 months)\nIntroduction to GIS (3 months)\nAdvanced GIS (3 months)\nAerial photography\u200e (3 months)\nMap projection (3 months)\nGeomorphology (6 months)\nClimatology and Meteorology (6 months)\nHydrology (3 months)\nBiogeography (3 months)\nOceanography and Limnology (3 months)\nEconomic geography (6 months)\nPolitical Geography (3 months)\nPopulation geography (6 months)\nSettlement geography (3 months)\nEnvironmental problems (3 months)\nGeography of Egypt (6 months)',
             },
             {
               school: 'Institute of Graduate Stadies and Research (IGSR) Alexandria',
@@ -1038,7 +1037,7 @@
             var s;
             return (
               Object(c.a)(this, t),
-              ((s = a.call(this, e)).state = { foo: 'bar', resumeData: O }),
+              ((s = a.call(this, e)).state = { foo: 'bar', resumeData: x }),
               m.a.initialize('UA-110570651-1'),
               m.a.pageview(window.location.pathname),
               s
@@ -1059,7 +1058,7 @@
                       Object(s.jsx)(f, { data: this.state.resumeData.education }),
                       Object(s.jsx)(v, { data: this.state.resumeData.quotes }),
                       Object(s.jsx)(j, { data: this.state.resumeData.main }),
-                      Object(s.jsx)(x, { data: this.state.resumeData.main }),
+                      Object(s.jsx)(O, { data: this.state.resumeData.main }),
                     ],
                   });
                 },
@@ -1121,4 +1120,4 @@
   },
   [[19, 1, 2]],
 ]);
-//# sourceMappingURL=main.64b8222d.chunk.js.map
+//# sourceMappingURL=main.f406f9d5.chunk.js.map

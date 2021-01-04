@@ -1,12 +1,11 @@
 export default {
   main: {
     name: 'Hisham Taha Kamal-Al-Din',
-    occupation:
-      'Software Developer (JavaScript, TypeScript, Node.js, Express.js, Nest.js, MongoDB, Angular, React) Developer',
+    occupation: 'Software Developer (MEAN/MERN Stack)',
     description: 'Creative, detail-oriented, ambitious, assiduous, animated JavaScript developer',
     image: 'profilepic.jpg',
 
-    bio: `Node/TypeScript/JavaScript Developer, GIS Analyst.
+    bio: `TypeScript / JavaScript / Node Developer, GIS Analyst / Web Developer.
 Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stack) Tracks at ITI Diploma. finish scholarship of the Institute of Technological Innovation in Egypt and many other courses.`,
     gisWebsite: 'https://hisham-taha.portfoliobox.net/projects',
     contactmessage: 'If I can be of assistance, please do not hesitate to contact me...',
@@ -34,29 +33,29 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
       },
       {
         name: 'GIS Website',
-        url: 'https://hisham-taha.portfoliobox.net/',
+        url: 'http://gis.hisham.work/',
         className: 'fa fa-globe-africa',
       },
       {
-        name: 'Solo learn',
+        name: 'Solo Learn',
         url: 'https://www.sololearn.com/Profile/7251463',
         className: 'fa fa-graduation-cap',
       },
       {
-        name: 'Code-wars',
+        name: 'Code Wars',
         url: 'https://www.codewars.com/users/Hisham.Taha',
         className: 'fab fa-galactic-republic',
+      },
+      {
+        name: 'Facebook',
+        url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
+        className: 'fa fa-facebook',
       },
       {
         name: 'Send E-Mail',
         url:
           "mailto:hisham.taha.work@gmail.com?Subject=I'm%20?%20My%20Phone%20Number%20?%20My%20E-mail%20?%20I%20would%20like%20to%20ask%20you%20about%20",
         className: 'fas fa-at',
-      },
-      {
-        name: 'Facebook',
-        url: 'https://www.facebook.com/Hisham.Taha.Kamal.AlDin',
-        className: 'fa fa-facebook',
       },
       //   {
       //     name: "twitter",
@@ -84,13 +83,13 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
     {
       company: 'Index Group',
       title: 'Intermediate -> Senior Node.js',
-      years: 'Jan 2020 - Present',
+      years: 'Jan 2020 - Jan 2021',
       description: 'Fix problems and add new features to any Applications (Courier, Events, Home, Food, Sharing)',
     },
     {
       company: 'MicroTec SA',
       title: 'Junior Software Developer (MEAN Stack)',
-      years: 'Apr 2020 - Des 2020',
+      years: 'Apr 2019 - Jan 2020',
       description:
         'Build an ERP (Enterprise resource planning) System from business (JIRA User Stories, Wireframes) in Agile process until secured APIs.',
     },
@@ -139,6 +138,17 @@ Graduate BA, Department of Geography and GIS, trainee in the (GIS, and MEAN Stac
 9. Communication, presentation & interviewing skills`,
     },
     {
+      school: 'Arab Academy for Science, Technology and Maritime Transport (AASTMT) Alexandria',
+      degree: 'Trainee as GIS Specialist',
+      graduated: 'Sep 2017',
+      description: `GIS Courses – Grade: A
+1. Fundamentals of GIS
+2. Advanced Editing Auto-CAD Map
+3. Spatial Analysis in ArcGIS
+4. Geo-Database for ArcGIS
+5. Map-Info Professional Basics`,
+    },
+    {
       school: 'Favulty of Arts, Alexandria University',
       degree: 'BA in Geographic Information System, & Geography',
       graduated: 'May 2007',
@@ -164,17 +174,6 @@ Population geography (6 months)
 Settlement geography (3 months)
 Environmental problems (3 months)
 Geography of Egypt (6 months)`,
-    },
-    {
-      school: 'Arab Academy for Science, Technology and Maritime Transport (AASTMT) Alexandria',
-      degree: 'Trainee as GIS Specialist',
-      graduated: 'Sep 2017',
-      description: `GIS Courses – Grade: A
-1. Fundamentals of GIS
-2. Advanced Editing Auto-CAD Map
-3. Spatial Analysis in ArcGIS
-4. Geo-Database for ArcGIS
-5. Map-Info Professional Basics`,
     },
     {
       school: 'Institute of Graduate Stadies and Research (IGSR) Alexandria',
@@ -396,8 +395,6 @@ Remote Sensing Courses – Grade: A
       level: '90%',
     },
   ],
-  //   resume: {
-  //   },
 
   //   TODO
   //   portfolio: {
